@@ -11,60 +11,67 @@
     <title>T3_6_9 | Website</title>
     <style>
         body{
-            background: black;
-        }
+            background-color: black;
+                margin: 0;
+                    padding: 0;
+}
         .socials{
             text-align: center;
-        }
+}
         .socials i{
             padding: 4px;
                 color:#FFF;
-        }
+}
         .socials i:hover{
             color:wheat;
-        }
+}
         a{
             text-decoration: none;
-        }
-        
+} 
+        #particles-js{      
+            
+}       
         .profile img{
             border-radius: 50%;
                 width: 80px;
                     margin: auto;
                         display: block;
-        }
+}
         .profile h1{
             font-family: 'Itim', cursive;
                 color:#FFF;
                     text-align: center;
-        }
+}
         .profile h1:hover{
                 color:wheat;
                     font-size: 30px;
-        }
+}
         .profile p{
             color:#FFF;
                 text-align: center;
                     font-family: 'Itim', cursive;
-        }
+}
         .profile p:hover{
             color:wheat;
         }
         .org{
             margin-top:10%;
-        }
+}
         .org h2{
             color:#FFF;
                 text-align: center;
                     font-family: 'Itim', cursive;
                         text-decoration: underline;
-        }
+}
         .org img{
             display: block;
                 margin: auto;
                     width: 78px;
-                        border-radius: 50%;
-        }
+                        padding: 8px;
+                            border-radius: 50%;                            
+}
+
+
 
        
     </style>
@@ -72,6 +79,7 @@
 <body>
     <main>
         <header>
+            
             <div class="socials">
                 <a href="https://github.com/T369-Real"><i class="fab fa-github fa-2x"></i></a>
                 <a href=""><i class="fab fa-gitlab fa-2x"></i></a>
@@ -79,24 +87,33 @@
         </header>
 
             <div class="profile">
-                <img src="https://avatars.githubusercontent.com/u/56536992?v=4">
+                <img src="https://avatars.githubusercontent.com/u/56536992?v=4" alt="KryztalTeam Image">
 
                 <h1>T3_6_9</h1>
                 <p>learning and trying to code </p>
-            </div>
             
+
             <div class="org">
             <h2>Links</h2>
-            <img  src="https://avatars.githubusercontent.com/u/76181172?s=200&v=4">
+            <a href="https://github.com/kryztalteam" onclick="kryztalteam()"><img  src="https://avatars.githubusercontent.com/u/76181172?s=200&v=4"></a>
+            <a href="https://github.com/KorreliahLinux" onclick="KorreliahLinux()"><img src="https://avatars.githubusercontent.com/u/76181134?s=200&v=4" alt="KorreliahLinux Image"></a>
             </div>
             
+        </div>
+            
 
-
+            
     </main> 
     <script>
-        function popup(){
-            
+
+        function kryztalteam(){
+            alert("Visitando a KryztalTeam (;");
         }
+        function KorreliahLinux(){
+            alert("Visistando a KorreliahLinux (;");
+        }
+
     </script>
+    <script src="js/particles.js"></script>
 </body>
 </html>
