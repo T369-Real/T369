@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Website" content="T3_6_9">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://avatars.githubusercontent.com/u/56536992?s=48&v=4">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resources/sweetalert2/dist/sweetalert2.min.css">
     <script src="https://kit.fontawesome.com/62cb099bac.js" crossorigin="anonymous"></script>
     <title>T3_6_9 | Website</title>
     <style>
@@ -28,9 +30,7 @@
         a{
             text-decoration: none;
 } 
-        #particles-js{      
-            
-}       
+       
         .profile img{
             border-radius: 50%;
                 width: 80px;
@@ -62,16 +62,27 @@
                 text-align: center;
                     font-family: 'Itim', cursive;
                         text-decoration: underline;
-}
-        .org img{
+}             
+        .kryztalteam {
             display: block;
                 margin: auto;
                     width: 78px;
                         padding: 8px;
                             border-radius: 50%;                            
 }
+        .KorreliahLinux{
+            display: block;
+                margin: auto;
+                    width: 78px;
+                        padding: 8px;
+}
 
 
+.idk{
+    height: 400px;
+        background:black;
+            border:2px solid white;
+}
 
        
     </style>
@@ -79,41 +90,49 @@
 <body>
     <main>
         <header>
-            
-            <div class="socials">
+           
+           <div class="socials">
                 <a href="https://github.com/T369-Real"><i class="fab fa-github fa-2x"></i></a>
                 <a href=""><i class="fab fa-gitlab fa-2x"></i></a>
             </div>
         </header>
-
-            <div class="profile">
+           <div class="profile">
                 <img src="https://avatars.githubusercontent.com/u/56536992?v=4" alt="KryztalTeam Image">
-
                 <h1>T3_6_9</h1>
                 <p>learning and trying to code </p>
-            
-
-            <div class="org">
-            <h2>Links</h2>
-            <a href="https://github.com/kryztalteam" onclick="kryztalteam()"><img  src="https://avatars.githubusercontent.com/u/76181172?s=200&v=4"></a>
-            <a href="https://github.com/KorreliahLinux" onclick="KorreliahLinux()"><img src="https://avatars.githubusercontent.com/u/76181134?s=200&v=4" alt="KorreliahLinux Image"></a>
+            <div class="idk">
+                
             </div>
-            
+            <div class="org">
+            <h2>Teams</h2>
+            <div class="kryztalteam"><a href="https://github.com/kryztalteam"  onclick="kryztalteam()"><img  src="https://avatars.githubusercontent.com/u/76181172?s=200&v=4" alt="KryztalTeam Image"></a></div>
+            <div class="KorreliahLinux"><a href="https://github.com/KorreliahLinux" onclick="KorreliahLinux()"><img src="https://avatars.githubusercontent.com/u/76181134?s=200&v=4" alt="KorreliahLinux Image"></a></div>     
         </div>
-            
+        </div>
 
-            
     </main> 
-    <script>
-
+<script>
         function kryztalteam(){
-            alert("Visitando a KryztalTeam (;");
+            Swal.fire({
+            title: 'Visitando A KryztalTeam (;',
+            text: 'Saliendo!',
+            imageUrl: 'https://avatars.githubusercontent.com/u/76181172?s=200&v=4',
+            imageWidth: 200,
+            imageHeight: 100,
+            imageAlt: 'KryztalTeam Image',
+})
         }
         function KorreliahLinux(){
-            alert("Visistando a KorreliahLinux (;");
+            Swal.fire({
+            title: 'Visitanto a KorreliahLinux (;',
+            imageUrl: 'https://avatars.githubusercontent.com/u/76181134?s=200&v=4',
+            imageHeight: 100,
+            imageAlt: KorreliahLinux,
+            })
         }
-
     </script>
-    <script src="js/particles.js"></script>
+    <script src="resources/particles-js/particles.js"></script>
+    <script src="resources/particles-js/app.js"></script>
+    <script src="resources/sweetalert2/dist/sweetalert2.all.min.js"></script>
 </body>
 </html>
