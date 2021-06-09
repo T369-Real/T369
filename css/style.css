@@ -38,9 +38,9 @@
 
 .content{
     width: 100%;
-    height: 210px;
-    background:#603203;
-    border-bottom: 10px solid #000000;
+    height: 400px;
+    background:#7279e5;
+    border-bottom: 1.2px solid #000000;
 }
 
 .content h2{
@@ -56,6 +56,28 @@
     text-align: center;
     font-family: 'Odibee Sans', cursive;
     margin-top: 5px;
+    margin-left: 2.5%;
+}
+
+#line{
+    width: 100%;
+    border-bottom: 1.2px solid #000000;
+    margin-top: 10%;
+    position: absolute;
+}
+
+.proyectos{
+    width: 100%;
+    height: 20px;
+    margin-top: 10.3%;
+    position: absolute;
+}
+
+.proyectos h4{
+    color: #000000;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 40px;
+    text-align: center;
     margin-left: 2.5%;
 }
 
@@ -79,7 +101,7 @@
 }
 
 .socials h3{
-    color: #FFFFFF;
+    color: #000000;
     font-size: 40px;
     position: absolute;
     font-family: 'Odibee Sans', cursive;
@@ -98,14 +120,14 @@
 }
 
 .icons i{
-    color: black;
+    color: #000000;
     padding: 2px;
 }
 
 .icons i:hover{
-    background-color: white;
+    background-color: #FFFFFF;
     border-width: 2px;
-    border-color: white;
+    border-color: #FFFFFF;
     border-style: solid;
     border-radius: 50%;
 }
