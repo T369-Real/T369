@@ -1,3 +1,3 @@
 function poco(){
-    alert('Es la tecnologia que muy pocas cosas se hacer💩');
+    alert('muy pocas cosas se hacer con esta tecnologia💩');
 }
