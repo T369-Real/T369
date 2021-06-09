@@ -9,4 +9,4 @@ gsap.from('#logo1',{
     x:10,
     delay:7,
     ease:"elastic"
-})
+});
