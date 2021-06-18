@@ -3,9 +3,8 @@
 window.onload = function() {
     Particles.init({
     selector: '.background',
-    speed: '2',
-    maxParticles: '20',
-    color:'#FFFFFF',
-    connectParticles: 'true'
+    speed: '3',
+    maxParticles: '80',
+    color:'#FA610C'
     });
 };
