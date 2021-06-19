@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
 
 *{
     margin: 0;
@@ -13,6 +14,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    border-bottom: 10px solid #000000;
 }
 
 ul{
@@ -58,4 +60,43 @@ a{
 #scroll img{
     width: 80px;
     margin-top: 20%;
+}
+
+#about{
+    width: 100%;
+    height: 600px;
+    background: wheat;
+    border-bottom: 10px solid #000000;
+    padding: 10px;
+}
+
+#about h2{
+    color: #000000;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-shadow: 1px 2px #333;
+}
+
+#about .image-left{
+    margin-left: 0.5%;
+    box-shadow: 1px 2px 15px  #333;
+    margin-top: 20px;
+}
+
+#about .image-left img{
+    width: 402px;
+    height: 402px;
+    border-radius: 4px;
+}
+
+#about .aboutnombre{
+    width: 380px;
+}
+
+#about .aboutnombre h3{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Londrina Shadow', cursive;
 }
